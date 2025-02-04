@@ -1,0 +1,219 @@
+.hero-section .hero-content {
+  text-align: center;
+  margin-top: 50px;
+  background-color: aliceblue;
+  height: 500px;
+}
+
+.top-navbar {
+  width: 100%;
+  background-color: #000000;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(113, 113, 113, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px; /* Adjust height as needed */
+}
+
+.tip-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: 0.75;
+}
+
+.cart_button {
+  width: 120px;
+  text-align: center;
+}
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+body {
+  background: #F2F2F2;
+}
+
+.bg-primary {
+  background: #328195 !important;
+}
+
+.bubble {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: #ffffff;
+}
+
+.date {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 4px 10px;
+}
+
+.cover-image {
+  position: relative;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+a {
+  color: #328195;
+  text-decoration: none;
+}
+
+.input-icon {
+  position: relative;
+}
+.input-icon input {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  padding-left: 30px;
+}
+.input-icon i {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  opacity: 0.5;
+}
+
+.categories a.badge {
+  color: #328195;
+  border-color: #328195;
+}
+.categories a.badge.active {
+  background: #328195;
+  color: #ffffff;
+}
+
+.card {
+  transition: all 0.2s;
+}
+.card:hover {
+  background: #ffffff !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.card:hover h2 a {
+  transition: all 0.2s;
+  color: #328195 !important;
+}
+.card:hover img {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.card:hover .has-multiple button {
+  display: block;
+}
+.card:hover .has-multiple-icon {
+  opacity: 0.2;
+}
+.card .has-multiple-icon {
+  position: absolute;
+  top: 160px;
+  right: 15px;
+  color: #ffffff;
+}
+
+.has-multiple {
+  position: relative;
+  min-height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+.has-multiple img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.has-multiple button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+.has-multiple button:hover {
+  color: #9cd0de;
+}
+.has-multiple button.prev {
+  left: 10px;
+}
+.has-multiple button.next {
+  right: 10px;
+}/*# sourceMappingURL=style.css.map */
